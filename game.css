@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background:#615847;
+	height:40px;
+	z-index: -1;
+}
+#container{
+	height:30px;
+	
+}
+#car {
+	position:absolute;
+	height:40px;
+	top: 50px;
+}
+#cop {
+	position:absolute;
+	margin-top: -20px;
+	height:40px;
+	left:60px;
+	background: black;
+};
+
+#tank {
+	position:absolute;
+	height:40px;
+	background: gray;
+	top:160px;
+};
+
+#cycle {
+	position:absolute;
+	height:40px;
+	width:40px;
+	background: darkred;
+	top: 110px;
+};
