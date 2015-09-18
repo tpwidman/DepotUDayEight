@@ -1,40 +1,42 @@
-*{
-	margin: 0;
-	padding: 0;
+/*.btn {
+  float: left;
+}*/
+.button{
+  float: left;
+  position: inline;
+  
 }
-body{
-	background:#615847;
-	height:40px;
-	z-index: -1;
+.Vehicle {
+  position: absolute;
+  height: 100px;
+  width: 100px;
 }
-#container{
-	height:30px;
-	
-}
-#car {
-	position:absolute;
-	height:40px;
-	top: 50px;
-}
-#cop {
-	position:absolute;
-	margin-top: -20px;
-	height:40px;
-	left:60px;
-	background: black;
-};
 
-#tank {
-	position:absolute;
-	height:40px;
-	background: gray;
-	top:160px;
-};
+.Car {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background-color: darkred;
+}
 
-#cycle {
-	position:absolute;
-	height:40px;
-	width:40px;
-	background: darkred;
-	top: 110px;
-};
+.CopCar {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background-color: darkblue;
+}
+
+.Motorcycle {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background-color:silver ;
+}
+
+.Tank {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  background-color: darkgreen;
+  
+}
